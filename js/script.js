@@ -70,7 +70,7 @@ footballTeam.forEach(function (team) {
 
 const nomiFalli = []
 
-for (let i = 1; i < footballTeam.length; i++) {
+for (let i = 0; i < footballTeam.length; i++) {
   nomiFalli.push({
     nome: footballTeam[i].nome,
     falliSubiti: footballTeam[i].falliSubiti,
