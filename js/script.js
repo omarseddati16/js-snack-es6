@@ -63,6 +63,10 @@ const footballTeam = [
   }
 ];
 
+footballTeam.forEach(function (team) {
+  team.puntiFatti = Math.floor(Math.random() * 100) + 1;
+  team.falliSubiti = Math.floor(Math.random() * 300) + 1;
+});
 
-
+console.log(footballTeam)
 
