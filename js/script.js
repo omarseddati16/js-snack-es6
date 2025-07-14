@@ -73,7 +73,7 @@ const nomiFalli = []
 for (let i = 1; i < footballTeam.length; i++) {
   nomiFalli.push({
     nome: footballTeam[i].nome,
-    puntiFatti: footballTeam[i].falliSubiti,
+    falliSubiti: footballTeam[i].falliSubiti,
   });
 
 }
