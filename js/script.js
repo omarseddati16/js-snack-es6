@@ -32,3 +32,37 @@ for (let i = 1; i < bicycle.length; i++) {
 }
 
 console.log(lightweightBicycles)
+
+// Snack 2
+
+const footballTeam = [
+  {
+    nome: "Juventus",
+    puntiFatti: 0,
+    falliSubiti: 0
+  },
+  {
+    nome: "Inter",
+    puntiFatti: 0,
+    falliSubiti: 0
+  },
+  {
+    nome: "Milan",
+    puntiFatti: 0,
+    falliSubiti: 0
+  },
+  {
+    nome: "Roma",
+    puntiFatti: 0,
+    falliSubiti: 0
+  },
+  {
+    nome: "Napoli",
+    puntiFatti: 0,
+    falliSubiti: 0
+  }
+];
+
+
+
+
