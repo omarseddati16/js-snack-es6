@@ -68,5 +68,14 @@ footballTeam.forEach(function (team) {
   team.falliSubiti = Math.floor(Math.random() * 300) + 1;
 });
 
-console.log(footballTeam)
+const nomiFalli = []
 
+for (let i = 1; i < footballTeam.length; i++) {
+  nomiFalli.push({
+    nome: footballTeam[i].nome,
+    puntiFatti: footballTeam[i].falliSubiti,
+  });
+
+}
+
+console.log(nomiFalli)
